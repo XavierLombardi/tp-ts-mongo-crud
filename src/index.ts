@@ -24,15 +24,15 @@ const main = async () => {
   console.log('📚 Todos los libros:', libros);
 
   // Obtener uno
-  const libro = await getBookById(nuevoLibro._id);
+const libro = await getBookById(nuevoLibro._id.toString());
   console.log('🔍 Libro por ID:', libro);
 
   // Actualizar
-  const actualizado = await updateBook(nuevoLibro._id, { year: 1968 });
+const actualizado = await updateBook(nuevoLibro._id.toString(), { year: 1968 });
   console.log('✏️ Libro actualizado:', actualizado);
 
   // Eliminar
-  await deleteBook(nuevoLibro._id);
+await deleteBook(nuevoLibro._id.toString());
   console.log('🗑️ Libro eliminado');
 };
 

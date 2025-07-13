@@ -1,18 +1,24 @@
 {
-  "dependencies": {
-    "dotenv": "^17.2.0",
-    "mongoose": "^8.16.3"
-  },
-  "devDependencies": {
-    "@types/node": "^24.0.13",
-    "nodemon": "^3.1.10",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.8.3"
-  },
-  "scripts": {
+  "name": "ts-mongo-crud",
+  "version": "1.0.0",
+  "description": "CRUD en MongoDB con TypeScript y Mongoose",
+  "main": "dist/index.js",
+"scripts": {
   "dev": "nodemon src/index.ts",
   "build": "tsc",
   "start": "node dist/index.js"
+},
+  "keywords": [],
+  "author": "Xavier Pablo Lombardi",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "mongoose": "^7.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.3"
+  }
 }
 
-}
