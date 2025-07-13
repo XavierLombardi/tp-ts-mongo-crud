@@ -9,7 +9,7 @@ Forma parte del curso de **Full Stack Web Developer** en la **UTN**.
 
 - **Nombre:** Xavier Pablo Lombardi  
 - **Carrera:** Full Stack Web Developer  
-- **Universidad:** UTN
+- **Universidad:** UTNBA
 
 ---
 
@@ -33,3 +33,17 @@ El objetivo del proyecto es implementar una aplicación en consola que permita r
 
 ## 🗃 Estructura del proyecto
 
+ts-mongo-crud/
+├── src/
+│ ├── config/
+│ │ └── database.ts
+│ ├── crud/
+│ │ └── book.crud.ts
+│ ├── models/
+│ │ └── book.model.ts
+│ └── index.ts
+├── .env
+├── .gitignore
+├── package.json
+├── tsconfig.json
+└── README.md
